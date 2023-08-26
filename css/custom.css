@@ -1,0 +1,406 @@
+
+:root{
+    --para-1: #5ACBA2;
+    --para-2: #A5C3FF;
+    --para-3: #b46e60;
+    --para-4: #d3a0f1;
+    --para-5: #92a2f6;
+    --para-6: #000000;
+    --font-1: 0.125rem;  
+    --font-2: 0.25rem;  
+    --font-3: 0.375rem;  
+    --font-4: 0.5rem;  
+    --font-5: 0.625rem; 
+    --font-6: 0.75rem;  
+    --font-7: 0.875rem;  
+    --font-8: 1rem; 
+    --font-9: 1.5rem; 
+    --font-10: 2rem;
+    --font-11: 2.5rem;
+    --font-12: 3rem;
+    --font-13: 3.5rem;
+    --font-14: 4rem;
+    --font-15: 5rem;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.hr{
+    border: 3px solid black;
+}
+/* Header start */
+.header-top{
+    background-color: black;
+}
+
+
+.logo{
+    position: absolute;
+    top: 1rem;
+    
+}
+
+.logo a img{
+    width: 11.875rem;
+    height: 8.75rem;
+    z-index: 20;
+}
+
+
+.title-container h1{
+    color: #1A9AFF;
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+.title-container p{
+    color: #fff;
+    text-align: center;
+}
+
+/* youyube button */
+.header-youtube-button-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+
+.header_youtube_button a{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.youtube-icon{
+    padding: 0.5rem 0.8rem;
+}
+
+.header_youtube_button a i {
+    background-color: rgba(184, 162, 162, 0);
+    line-height: 0;
+    border-style: solid;
+    border-width: 10px 1px;
+    border-color: white;
+    color: red;
+    border-radius: 6px;
+    font-size: 22px;
+}
+
+.header_youtube_button a p{
+    margin-bottom: 0;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-right: 0.6rem;
+    /* border: 1px solid yellow; */
+    
+}
+
+.header_youtube_button .youtube_button p span{
+    font-size: 0.9rem;
+}
+
+/* navigation and search bar start */
+.navbar-form{
+    position: relative;
+    left: 20%;
+    width: 40%;
+}
+
+
+/* navigation and search bar end */
+
+
+
+/* Header End */
+
+/* main start */
+.main-body{
+    margin-top: 2rem;
+    min-height: calc(100vh - 30vh);
+}
+
+.side-navbar ul li{
+    margin-top: 0.5rem;  
+}
+
+.side-navbar ul li a{
+    width: 100%;
+}
+
+
+/* home page middle content container */
+.middle-content-container{
+    display: flex;
+}
+
+.middle-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.middle-content img{
+    min-width: 100%;
+    height: auto;
+    
+}
+
+/* .middle-content{
+    display: flex;
+    flex-wrap:wrap;
+} */
+
+.opening-left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.opening-right-content{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+/* Right side  */
+.right-side-container{
+    margin-top: 2rem;
+}
+.image-container{
+    width: 100%;
+    /* height: 50%; */
+}
+.profile-img{
+    max-width: 60%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.text{
+font-size: 0.950rem;
+text-align: justify;
+}
+
+.moreText{
+    display: none;
+}
+
+.text.show-more .moreText{
+    display: inline;
+}
+
+.text.show-more .dots{
+    display: none;
+}
+
+
+/* social icon container start */
+.social-container{
+    margin-top: 1rem;
+    background: linear-gradient(0deg, rgba(34,195,104,1) 0%, rgba(45,77,253,1) 100%);
+    text-align:center;
+  }
+  
+  
+  .social-buttons{
+    display:inline-block;
+    background: rgba(256,256,256,0.5);
+    padding:20px;
+    padding-bottom: 5px;
+    border-radius:10px;
+    text-align:center;
+    margin:20px 10px;
+    box-shadow: 0px 0px 32px -7px #00199f;
+  }
+    
+  /* Helper class to divide the icons */
+  .social-margin {
+    margin-right: 15px;
+  }
+  
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+  }
+  
+  .social-icon {
+    margin-bottom: 15px;
+     box-sizing: border-box;
+    -moz-border-radius: 138px;
+    -webkit-border-radius: 138px;
+    border-radius: 138px;
+    border: 5px solid;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 1px;
+    padding-top: 11px;
+    transition: all 0.5s;
+  }
+  .social-icon:hover {
+      transform: rotate(360deg)scale(1.3);
+    }
+    /* Facebook Button Styling */
+   .facebook {
+      font-size: 22px;
+      padding-top: 9px;
+      border-color: #3b5998;
+      background-color: #3b5998;
+      color: #ffffff;
+     
+    }
+    .facebook:hover {
+      background-color: #ffffff;
+      color: #3b5998;
+    }
+    /* Twitter Button Styling */
+  .twitter {
+      font-size: 22px;
+      padding-top: 10px;
+      padding-left: 2px;
+      border-color: #55acee;
+      background-color: #55acee;
+      color: #ffffff;
+      
+    }
+    .twitter:hover {
+      background-color: #ffffff;
+      color: #55acee;
+    }
+    
+    /* Linkedin Button Styling */
+    .linkedin {
+      font-size: 24px;
+      padding-top: 8px;
+      padding-left: 1px;
+      background-color: #0976b4;
+      color: #ffffff;
+      border-color: #0976b4;
+      
+    }
+    .linkedin :hover {
+      background-color: #ffffff;
+      color: #0976b4;
+    }
+    
+  
+    /* Youtube Button Styling */
+   .youtube {
+      font-size: 22px;
+      padding-top: 9px;
+      padding-left: 0px;
+      background-color: #bb0000;
+      color: #ffffff;
+      border-color: #bb0000;
+      
+    }
+    .youtube :hover i{
+        color: #bb0000;
+        background-color: #ffffff;
+    }
+
+    
+/* social icon container end */
+
+/* main end */
+
+/* footer start */
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: rgb(140, 137, 137);
+        margin-top: 0.5rem;
+        min-height: 6vh;
+        
+    }
+
+    footer p{
+        color: #000000;
+        font-size: 1.1rem;
+        padding-top: 0.5rem;
+        font-weight: 500;
+        
+    }
+
+/* footer end */
+
+/* home page end */
+
+/* ************** SSC home page start *********************** */
+.table-container{
+    background-color: #e4e5e7;
+    padding: 1rem
+}
+.table-container h1{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+table tr {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin: 0.6rem 0;
+    
+    
+}
+
+table tr td{
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+table tr td:hover, table tr td a:hover {
+    background-color: rgb(63, 63, 181);
+    color: #fff;
+    transition: 0.5s;
+}
+
+table tr td a{
+    display: block;
+    padding: 1rem;
+    color: #000;
+    font-weight: 800;
+    cursor: pointer;
+    
+}
+
+
+/* ************** SSC home page end *********************** */

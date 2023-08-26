@@ -1,0 +1,260 @@
+/* lg 1025px to 1200px */
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+    .logo{
+        top: 0.5rem;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .logo a img{
+        max-width: 80%;
+        height: auto;
+    }
+
+    .title-container{
+        display: flex;
+        flex-direction: column;
+    }
+        .title-container h1{
+        font-size: 3rem; 
+    }
+}
+
+/* md 769px to 1024px bs-991px*/
+@media only screen and (max-width: 991px) and (min-width: 769px){
+    .logo{
+        top: 0.5rem;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .logo a img{
+        max-width: 60%;
+        height: auto;
+    }
+
+    .title-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .title-container h1{
+        font-size: 2.5rem;
+        
+    }
+
+    .title-container p{
+        font-size: 1rem;
+    
+    }
+    .youtube-icon{
+        padding: 0.5rem 0.5rem;
+    }
+
+    .header_youtube_button a p{
+        font-size: 1rem;
+    }
+
+    .main-body{
+        margin-top: 1rem
+    }
+   
+   
+    .side-nav{
+        display: flex;
+        justify-content: center;
+        padding-left: 0rem;
+        
+    }
+
+    .side-nav li{
+        margin: 0px 5px;
+
+    }
+
+
+
+
+    .profile-info{
+     display: flex;
+        flex-direction: column;
+    }
+    .image-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.profile-img{
+    max-width: 50%;
+    height: auto;
+} 
+
+.profile-text{
+    width: 100%
+}
+.middle-content{
+    display: none;
+}
+
+}
+
+/* iPads, Tablets small devices */
+@media only screen and (max-width: 768px) and (min-width: 577px){
+    .logo{
+        top: 0.5rem;
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .logo a img{
+        max-width: 50%;
+        height: auto;
+    }
+
+    .title-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title-container h1 {
+        font-size: 3rem;
+        text-align: center;
+        padding-left: 5rem;
+    }
+
+    .title-container p{
+        font-size: 1rem;
+        padding-left: 5rem;
+    }
+
+    .header-youtube-button-container{
+        background-color: red; 
+    }
+    
+    .header_youtube_button{
+     /* display: block; */
+     margin: 0 auto; 
+    }
+
+    .navbar-form{
+        left: 0%;
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+
+    .side-nav{
+        padding-left: 0rem;
+    }
+
+    .middle-content{
+        display: none;
+    }
+    
+
+    .profile-info{
+        display: flex;
+    }
+    .image-container{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-img{
+        max-width: 100%;
+        height: auto;
+    } 
+
+    .profile-text{
+        width: 50%
+    }
+
+}
+
+
+/* Mobile devices x-small */
+@media only screen and (max-width: 576px){
+    .logo{
+        top: 0.7rem;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        
+    }
+
+    .logo a img{
+        max-width: 75%;
+        height: auto;
+        
+    }
+
+    .title-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title-container h1 {
+        color: #f4fc05;
+        font-size: 1.6rem;
+        text-align: center;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        padding-left: 4rem;
+    }
+
+    .title-container p{
+        color: #fff;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    .header-youtube-button-container{
+        background-color: red; 
+    }
+
+    .header_youtube_button{
+        display: block;
+        margin: 0 auto; 
+       }
+
+       .navbar-form{
+        left: 0%;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .side-navbar{
+        margin-bottom: 2rem;
+    }
+
+    .side-navbar ul{
+        padding-left: 0rem; 
+    }
+
+    .middle-content{
+        display: none;
+    }
+
+    .profile-info{
+        margin-top: 0.5rem;
+    }
+
+    .profile-img{
+        width: 40%;
+    }
+
+    .profile-text p{
+        padding: 0 0.8rem;
+    }
+}

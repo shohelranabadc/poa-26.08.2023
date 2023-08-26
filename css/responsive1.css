@@ -1,0 +1,446 @@
+
+/* Extra large devices bootstrap -xxl (large laptops and desktops, 1200px and up) */
+/* up 1400px */
+@media only screen and (min-width: 1401px){
+    
+}
+
+/* Extra large screens, TV – 1201px, and more  bootstrap -xl*/
+/* 1201px to 1400px */
+@media only screen and (max-width: 1400px) and (min-width: 1201px){    
+.title-container h1 {
+    color: #1A9AFF;
+    font-size: 3.8rem;
+    text-align: center;
+}
+    
+.title-container p{
+    color: #fff;
+    text-align: center;
+}
+
+.navbar-form{
+    left: 20%;
+}
+
+.profile-img{
+    max-width: 40%;
+}
+
+.profile-text h2{
+    font-size: 1.5rem;
+}
+
+
+}
+
+/* Desktops, large screens – 1025px — 1200px. bootstrap lg */
+/* lg 1025px to 1200px */
+@media only screen and (max-width: 1200px) and (min-width: 1025px){
+    .logo{
+        top: 0.5rem;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .logo a img{
+        max-width: 10rem;
+        height: auto;
+    }
+    
+.title-container{
+    display: flex;
+    flex-direction: column;
+}
+    .title-container h1{
+    font-size: 2.5rem; 
+}
+.navbar-form{
+    left: 20%;
+    }
+    .side-nav{
+        padding-left: 0rem;
+    }
+
+    .middle-content-container{
+        display: none;
+    }
+
+}
+
+
+/* Small screens, laptops – 769px — 1024px. bootstrap breakpoint md */
+/* md 769px to 1024px bs-991px*/
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    .logo{
+        top: 0.5rem;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .logo a img{
+        max-width: 7rem;
+        height: auto;
+    }
+
+    .title-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .title-container h1{
+        font-size: 2.5rem;
+        
+    }
+    .title-container p{
+        font-size: 1rem;
+    
+    }
+    .youtube-icon{
+        padding: 0.5rem 0.5rem;
+    }
+
+    .header_youtube_button a p{
+        font-size: 1rem;
+    }
+
+    .navbar-form{
+        left: 5%;
+        width: 50%;
+    }
+
+    .main-body{
+        margin-top: 1rem
+    }
+
+    .side-nav{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-left: 0rem;
+        width: 100%;
+        background-color: red;
+    }
+
+
+
+
+    .profile-info{
+     display: flex;
+        flex-direction: column;
+    }
+    .image-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.profile-img{
+    max-width: 50%;
+    height: auto;
+} 
+
+.profile-text{
+    width: 100%
+}
+.middle-content-container{
+    display: none;
+}
+}
+
+/* iPads, Tablets – 481px — 768px. bootstrap -sm */
+/* 481px to 768px */
+@media only screen and (max-width: 768px) and (min-width: 481px){
+    .logo{
+        top: 0.5rem;
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .logo a img{
+        max-width: 50%;
+        height: auto;
+    }
+    
+
+    .header-top{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .title-container h1 {
+        font-size: 3rem;
+        text-align: center;
+        padding-left: 5rem;
+    }
+
+    
+    .title-container p{
+        font-size: 1rem;
+        padding-left: 5rem;
+    }
+    
+    .header-youtube-button-container{
+        background-color: red; 
+    }
+    
+    .header_youtube_button{
+     display: block;
+     margin: 0 auto; 
+    }
+    
+    .navbar-form{
+        left: 0%;
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+
+    .side-nav{
+        padding-left: 0rem;
+    }
+
+    .middle-content-container{
+        display: none;
+    }
+
+    .profile-info{
+        display: flex;
+    }
+    .image-container{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-img{
+        max-width: 100%;
+        height: auto;
+    } 
+
+    .profile-text{
+        width: 50%
+    }
+
+
+}
+
+/* Mobile devices – 0px — 480px. */
+/* 320px to 480px */
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+.logo{
+    top: 0.7rem;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo a img{
+    /* max-width: 3.5rem; */
+    max-width: 75%;
+    height: auto;
+}
+
+.header-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-container h1 {
+    color: #f4fc05;
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 4rem;
+}
+
+.title-container p{
+    color: #fff;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.header-youtube-button-container{
+    background-color: red; 
+}
+
+.header_youtube_button{
+ display: block;
+ margin: 0 auto; 
+}
+
+.navbar-form{
+    left: 0%;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.login-btn{
+    padding-right: 0rem;
+    width: 100%;
+    margin: 0.5rem 0;
+    
+}
+
+.hr{
+display: none;
+}
+
+
+.side-navbar{
+    margin-bottom: 2rem;
+}
+
+.side-navbar ul{
+    padding-left: 0rem; 
+}
+
+.social-group{
+    display: none;
+}
+
+.middle-content{
+    display: none;
+}
+
+
+.middle-content-container{
+    display: none;
+}
+
+.profile-info{
+    margin-top: 1rem;
+}
+
+.profile-img{
+    width: 40%;
+}
+
+.profile-text p{
+    padding: 0 0.8rem;
+}
+
+}
+
+/* Mobile devices – 320px — 480px. */
+/* 320px to 480px */
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .logo{
+        top: 0.7rem;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .logo a img{
+        /* max-width: 3.5rem; */
+        max-width: 75%;
+        height: auto;
+    }
+    
+    .header-top{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .title-container h1 {
+        color: #f4fc05;
+        font-size: 1.6rem;
+        text-align: center;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        padding-left: 4rem;
+    }
+    
+    .title-container p{
+        color: #fff;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+    .header-youtube-button-container{
+        background-color: red; 
+    }
+    
+    .header_youtube_button{
+     display: block;
+     margin: 0 auto; 
+    }
+    
+    .navbar-form{
+        left: 0%;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .login-btn{
+        padding-right: 0rem;
+        width: 100%;
+        margin: 0.5rem 0;
+        
+    }
+    
+    .hr{
+    display: none;
+    }
+    
+    
+    .side-navbar{
+        margin-bottom: 2rem;
+    }
+    
+    .side-navbar ul{
+        padding-left: 0rem; 
+    }
+    
+    .social-group{
+        display: none;
+    }
+    
+    .middle-content{
+        display: none;
+    }
+    
+    
+    .middle-content-container{
+        display: none;
+    }
+    
+    .profile-info{
+        margin-top: 1rem;
+    }
+    
+    .profile-img{
+        width: 40%;
+    }
+    
+    .profile-text p{
+        padding: 0 0.8rem;
+    }
+    
+    }
